@@ -189,3 +189,23 @@
         </div>
     </section>
 @endsection
+
+@section('footer')
+
+    <script>
+        function makeid()
+        {
+            var text = "";
+            var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+            for( var i=0; i < 5; i++ )
+                text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+            console.log(text);
+            return text;
+        }
+        var pattern = GeoPattern.generate(makeid(), {'base_color': '#C2185B'});
+        $('.portfolio-box-caption').css('background-image', pattern.toDataUrl());
+    </script>
+
+@endsection

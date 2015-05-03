@@ -54,6 +54,9 @@
     <!-- Custom Theme JavaScript -->
     <script src="/js/creative.js"></script>
 
+    <!-- GeoPattern -->
+    <script src="/js/geopattern.min.js"></script>
+
     @yield('footer')
 </body>
 </html>
