@@ -5,7 +5,6 @@
                 <hr class="primary">
                 <p>Copyright &copy; {{ date('Y') }} Wellington Bare. All rights reserved.</p>
             </div>
-
         </div>
     </div>
 </footer>

@@ -16,40 +16,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">Our Story</h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-tint wow bounceIn text-primary"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
-                    </div>
+                <div class="col-lg-12 text-center text-muted">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum maxime modi omnis veritatis. Aspernatur at corporis, doloremque ea ipsa maxime molestiae nesciunt, non optio porro quas quisquam reiciendis sapiente temporibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet atque corporis laborum nam possimus quaerat sapiente sint voluptates. Adipisci aspernatur cumque explicabo nam repellat repudiandae sapiente sed similique sit?</p>
                 </div>
             </div>
         </div>
@@ -152,30 +127,63 @@
         </div>
     </section>
 
-    <aside id="wheretobuy">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="#" class="btn btn-primary btn-xl wow pulse">Download Now!</a>
+    <section id="wheretobuy">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Where To Buy</h2>
+                    <hr class="primary">
+                </div>
             </div>
         </div>
-    </aside>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 text-center">
+                    <a href="http://etsy.com/uk" class="panel">
+                        <div class="service-box">
+                            {{--<i class="fa fa-4x fa-tint wow bounceIn text-primary"></i>--}}
+                            <p class="btn btn-primary btn-xl btn-buy animated fadeInRight">Etsy</p>
+                            {{--<p class="text-muted"></p>--}}
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <a href="http://amazon.co.uk" class="panel">
+                        <div class="service-box">
+                            {{--<i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>--}}
+                            <p class="btn btn-primary btn-xl btn-buy animated fadeInUp">Amazon</p>
+                            {{--<p class="text-muted">You can use this theme as is, or you can make changes!</p>--}}
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <a href="http://ebay.com/" class="panel">
+                        <div class="service-box">
+                            {{--<i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>--}}
+                            <p class="btn btn-primary btn-xl btn-buy animated fadeInLeft">eBay</p>
+                            {{--<p class="text-muted">We update dependencies to keep things fresh.</p>--}}
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="bg-primary" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <hr class="light">
+                    <p>Have a question? Give us a call or send us an email and we'll endeavour to get back to you as quick as we can.</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>123-456-6789</p>
+                    <p>+44 (0) 1206 123 456</p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p class=""><a href="mailto:info@wellingtonbare.com">info@wellingtonbare.com</a></p>
+                    <p><a href="mailto:info@wellingtonbare.com" class="light">info@wellingtonbare.com</a></p>
                 </div>
             </div>
         </div>

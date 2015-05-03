@@ -31,6 +31,14 @@ a {
     }
 }
 
+a.light {
+    color: white;
+}
+
+a.panel {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -41,7 +49,7 @@ h6 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 1.5em;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -81,7 +89,8 @@ aside {
     .navbar-header .navbar-brand {
         color: @theme-primary;
         .sans-serif-font;
-        font-weight: 700;
+        font-weight: 400;
+        font-size: 1.5em;
         text-transform: capitalize;
         &:hover,
         &:focus {
@@ -93,8 +102,8 @@ aside {
             > a,
             > a:focus {
                 text-transform: capitalize;
-                font-weight: 700;
-                font-size: 13px;
+                font-weight: 400;
+                font-size: 1.2em;
                 color: @theme-dark;
                 &:hover {
                     color: @theme-primary;
@@ -114,7 +123,7 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: transparent;
-        border-color: fade(white, 30%);
+//        border-color: fade(white, 30%);
         .navbar-header .navbar-brand {
             color: fade(white, 70%);
             &:hover,
@@ -134,7 +143,7 @@ aside {
             border-color: fade(@theme-dark, 5%);
             .navbar-header .navbar-brand {
                 color: @theme-primary;
-                font-size: 14px;
+                font-size: 1.2em;
                 &:hover,
                 &:focus {
                     color: darken(@theme-primary, 10%);
@@ -143,6 +152,7 @@ aside {
             .nav > li > a,
             .nav > li > a:focus {
                 color: @theme-dark;
+                font-size: 1em;
                 &:hover {
                     color: @theme-primary;
                 }
@@ -169,7 +179,7 @@ header {
         width: 100%;
         .header-content-inner {
             h1 {
-                font-weight: 700;
+                font-weight: 400;
                 text-transform: capitalize;
                 margin-top: 0;
                 margin-bottom: 0;
@@ -311,12 +321,16 @@ header {
     .sans-serif-font;
     border: none;
     border-radius: 300px;
-    font-weight: 700;
-    text-transform: capitalize;
+    font-weight: 400;
 }
 
 .btn-xl {
     padding: 15px 30px;
+}
+
+.btn-buy {
+    font-size: 1.5em;
+    width: 80%;
 }
 
 // Extras
