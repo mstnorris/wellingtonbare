@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: WellingtonBare
+        psr4_prefix: WellingtonBare
+        src_path: app
