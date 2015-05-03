@@ -7,7 +7,7 @@
                 <h1>Rain in style. Make a splash with beautiful wellies.</h1>
                 <hr>
                 <p></p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <a href="#ourstory" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
     </header>
