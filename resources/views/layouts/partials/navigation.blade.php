@@ -15,13 +15,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="page-scroll" href="#ourstory">Our story</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">Services</a>
+                    <a class="page-scroll" href="#styles">Styles</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    <a class="page-scroll" href="#wheretobuy">Where to buy</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>

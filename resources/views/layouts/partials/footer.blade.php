@@ -1,9 +1,11 @@
-<footer class="footer">
-    <div class="container-fluid">
+<footer class="footer bg-dark">
+    <div class="container">
         <div class="row">
-            <div class="col-xs-12">
-                <p class="text-muted">Copyright &copy; {{ date('Y') }} Michael Norris. All rights reserved.</p>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <hr class="primary">
+                <p>Copyright &copy; {{ date('Y') }} Wellington Bare. All rights reserved.</p>
             </div>
+
         </div>
     </div>
 </footer>

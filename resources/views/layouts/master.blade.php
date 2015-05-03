@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Laravel</title>
+	<title>Wellington Bare</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
@@ -37,7 +37,7 @@
 
     @include('layouts.partials.footer')
 
-    @yield('footer')
+
 
 	<!-- Scripts -->
     <!-- jQuery -->
@@ -53,5 +53,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="/js/creative.js"></script>
+
+    @yield('footer')
 </body>
 </html>
